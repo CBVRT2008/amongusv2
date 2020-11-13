@@ -1,0 +1,7 @@
+import socket
+
+ ip = socket.gethostbyname()
+ 
+ file = open("ip.txt","w")
+ file.write(ip)
+ file.close()
